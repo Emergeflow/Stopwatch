@@ -1,5 +1,9 @@
 <div align="center">
 
+<img width="350" height="250" alt="Stopwatch" src="https://github.com/user-attachments/assets/29e118fd-2433-4865-b2fd-e147ae67e25b" />
+
+<div align="center">
+
   <h1>⏱ Modern Stopwatch</h1>
 
   <p>Современный, минималистичный и стильный секундомер для Windows, написанный на Python и PyQt6.</p>
