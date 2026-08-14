@@ -14,7 +14,7 @@
 
 ---
 
-## ✨ Особенности
+# ✨ Особенности
 
 * **🎨 Современный кастомный UI:** Тёмная тема с лаконичным дизайном и плавными закруглениями.
 * **🖼 Безрамочный режим (Frameless):** Кастомная панель заголовка с удобными кнопками сворачивания и закрытия.
@@ -24,7 +24,7 @@
 
 ---
 
-## 🛠 Технологии
+# 🛠 Технологии
 
 * **Language:** Python
 * **GUI Framework:** PyQt6
@@ -35,6 +35,33 @@
 ## 🚀 Быстрый запуск из исходного кода
 
 ### 1. Клонирование репозитория
-```bash
-git clone [https://github.com/Emergeflow/Stopwatch.git](https://github.com/Emergeflow/Stopwatch.git)
+git clone https://github.com/Emergeflow/Stopwatch.git
 cd Stopwatch
+
+### 2. Установка зависимостей
+pip install PyQt6
+
+### 3. Запуск приложения
+python Stopwatch.py
+
+---
+
+## 📦 Сборка в .exe
+
+Если вы хотите собрать приложение в один исполняемый файл с собственной иконкой:
+
+1. Установите PyInstaller:
+   pip install pyinstaller
+
+2. Выполните команду сборки:
+   pyinstaller --noconsole --onefile --icon=Stopwatch.ico --add-data "Stopwatch.ico;." Stopwatch.py
+
+Готовый файл **Stopwatch.exe** появится в папке **dist/**.
+
+---
+
+<div align="center">
+
+  <sub>Developed with ❤️ by **Emergeflow**</sub>
+
+</div>
